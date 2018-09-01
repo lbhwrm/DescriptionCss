@@ -1,0 +1,98 @@
+	html{height:100%;font-size:24px}
+	body{padding:0;margin:0;z-index:1;width:100%;color:#666;background: #F9F9F9;}
+	img{border:none;}
+	a {outline:0;text-decoration:none !important}
+	.crb{clear:both;}
+	.logo{padding:.25rem 0;}
+	.logo img{max-height:150px;max-width:280px;}
+	/* --------------   banner STYLE --------------  */
+	.banner{width:100%;margin-left:8rem;margin-bottom:1rem;}
+	.banner input{display: none;}
+	.banner .bigPic{width:50%;height:25rem;float:left;}
+	.banner .bigPic div{width:100%;text-align:center;height:25rem;display: none;}
+	.banner .bigPic div img{height:100%;max-width:100%;}
+	.banner .sliderPic{width:20%;height:25rem;overflow-y: auto;}
+	.banner .sliderPic label {padding:.4rem;float:left;cursor:pointer;}
+	.banner .sliderPic label img{max-width:5rem;height:3rem;opacity:.8; }
+	#wefun-img-rdi-1:checked ~ .bigPic #wefun-bigImg-1{display:block;}
+	#wefun-img-rdi-1:checked ~ .sliderPic #wefun-bigImg-slider-1 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-2:checked ~ .bigPic #wefun-bigImg-2{display:block;}
+	#wefun-img-rdi-2:checked ~ .sliderPic #wefun-bigImg-slider-2 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-3:checked ~ .bigPic #wefun-bigImg-3{display:block;}
+	#wefun-img-rdi-3:checked ~ .sliderPic #wefun-bigImg-slider-3 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-4:checked ~ .bigPic #wefun-bigImg-4{display:block;}
+	#wefun-img-rdi-4:checked ~ .sliderPic #wefun-bigImg-slider-4 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-5:checked ~ .bigPic #wefun-bigImg-5{display:block;}
+	#wefun-img-rdi-5:checked ~ .sliderPic #wefun-bigImg-slider-5 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-6:checked ~ .bigPic #wefun-bigImg-6{display:block;}
+	#wefun-img-rdi-6:checked ~ .sliderPic #wefun-bigImg-slider-6 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-7:checked ~ .bigPic #wefun-bigImg-7{display:block;}
+	#wefun-img-rdi-7:checked ~ .sliderPic #wefun-bigImg-slider-7 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-8:checked ~ .bigPic #wefun-bigImg-8{display:block;}
+	#wefun-img-rdi-8:checked ~ .sliderPic #wefun-bigImg-slider-8 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-9:checked ~ .bigPic #wefun-bigImg-9{display:block;}
+	#wefun-img-rdi-9:checked ~ .sliderPic #wefun-bigImg-slider-9 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-10:checked ~ .bigPic #wefun-bigImg-10{display:block;}
+	#wefun-img-rdi-10:checked ~ .sliderPic #wefun-bigImg-slider-10 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-11:checked ~ .bigPic #wefun-bigImg-11{display:block;}
+	#wefun-img-rdi-11:checked ~ .sliderPic #wefun-bigImg-slider-11 img{border:2px solid #FF6100;opacity:1;}
+	#wefun-img-rdi-12:checked ~ .bigPic #wefun-bigImg-12{display:block;}
+	#wefun-img-rdi-12:checked ~ .sliderPic #wefun-bigImg-slider-12 img{border:2px solid #FF6100;opacity:1;}
+    .flatBigPic{margin:0 auto;width:100%;text-align: center;display: none;}
+	/* --------------   description STYLE --------------  */
+	.box{padding:0;margin-top:.5rem;}
+	.titlebar{border-bottom:solid 2px #FF8C00; color:#fff;padding-bottom:0px;position:relative;height:.75rem;line-height:1.5rem;padding:0 .6rem;font-size:.83rem;}
+	.titlebar span{display:inline-block; background:#FF6100;height:1.4rem;padding:0 .5rem;line-height:1.4rem;position:absolute; top:0;left:0;}
+	.content{word-wrap:break-word;padding:1rem .25rem .25rem .25rem;font-size:0.6rem;clear:both;}
+	/* --------------   context STYLE --------------  */
+	.tab_container{width:100%;margin-bottom:1rem;}
+	.tab_container input{display: none;}
+	.tab_container .tab{width:100%;height:.75rem;border-bottom:solid 2px #FF8C00;}
+    .tab_container .tab ul{width:100%;list-style:none;margin:0;padding:0;}
+	.tab_container .tab ul li{position:relative;bottom:2px;float:left;height:1.5rem;line-height:1.5rem;cursor:pointer;margin-right:4px;border:solid 2px #FF8C00;background:#fff;color:#777;font-size: .7rem;}
+	.tab_container .tab ul li label{display:block;padding:0 1rem;cursor:pointer;}
+	.tab1{display:none;}
+	/* --------------   footer STYLE --------------  */
+	.footer{padding:.8rem 0 1rem 0;background:#ccc;}
+	.footer .copyright{text-align:center;font-size:.8em;}
+	/* --------------   fix mobile STYLE --------------  */
+	@media screen and (max-width: 960px){
+		html{font-size: 12px}
+		.container{padding:0}
+		.tab1{display: block}
+        .titlebar{font-size:1rem;}
+        .content{word-wrap:break-word;font-size:1rem;}
+        .banner{display:none;}
+        .flatBigPic{display:block;}
+        .flatBigPic ul{display: inline-block;list-style:none;margin:0;padding:0;}
+        .flatBigPic li{display: inline-block;width:98%;margin:.25rem 0 0 0;}
+        .flatBigPic li div{text-align:center;width:100%;}
+        .flatBigPic li img{max-width:100%;max-height:480px;}
+        .wefun-recommendation ul li{width:50%!important;border:0;}
+		.wefun-recommendation ul li:hover{border:0;}
+	}
+	.clear{font-size:0; content:" "; clear:both; height:0; zoom:1; overflow:hidden}
+	.wefun-recommendation{margin:0;padding:0;width:100%;}
+	.wefun-recommendation ul{width:100%;list-style-type:none;padding:0px;margin:0px auto;}
+	.wefun-recommendation ul li{padding:0px;margin:0px; float:left;list-style-type:none;position:relative;}
+	.wefun-recommendation .item{background:#fff;margin:2px;border:solid 1px #C5C5C5;border-radius:8px;}
+	.wefun-recommendation ul li div:hover{border-radius:8px;border:solid 1px #FF6100}
+	.wefun-recommendation ul li a img{width:100%;}
+	.wefun-recommendation ul li a{margin:5px;float:left;text-decoration:none;}
+	.wefun-recommendation p{padding:0px 8px;margin:0px;}
+	.wefun-recommendation .title{word-break:break-word;font-size:12px;line-height:13px;height:27px;overflow: hidden;text-align: left;text-decoration: none;width:94%;word-wrap: break-word; margin:6px 0;}
+	.wefun-recommendation ul li:hover .title{text-decoration:none;color:#FF6100;}
+	.wefun-recommendation .price{color:#666;font-family: Arial;font-size: 11px;font-weight: normal;height:29px;line-height:14px;text-align: left;}
+	.wefun-recommendation .price b{color:#f60;cursor: pointer;font-size: 13px;font-weight: bold; }
+	.wefun-recommendation .price span{color: #777777;cursor: pointer;font-size: 12px;font-weight: normal;text-decoration: line-through;}
+	.wefun-recommendation .shipping{color:#555;font-family: Verdana,sans-serif !important;font-size: 11px;font-weight: normal;line-height: 13px;min-height: 13px;text-align: left;padding-bottom:8px;}
+	/* --------------   tab_container STYLE --------------  */
+	.tab_container main{min-width:320px;max-width:1088px;padding:0px;margin:0 auto background:#fff;}
+	.tab_container section{display:none;padding:20px 0 0;border-top:1px solid #FF8C00;}
+	.tab_container input{display:none}
+	.tab_container label{display:inline-block;margin:0 0 -1px;padding:15px 25px;font-weight:600;font-size:17px;text-align:center;color:#FF8C00;border:2px solid transparent;}
+	.tab_container label:hover{color:#FF8C00;cursor:pointer;}
+	.tab_container input:checked + label{color:#000;border:1px solid #FF8C00;border-top:2px solid orange;border-bottom:2px solid #fff;}
+	.tab_container #tab1:checked~#content1,#tab2:checked~#content2,#tab3:checked~#content3,#tab4:checked~#content4,#tab5:checked~#content5{display:block;}
+	@media screen and(max-width:650px){label{font-size:0;}label:before{margin:0;font-size:18px;}}
+	@media screen and(max-width:400px{label{padding:15px;}}
